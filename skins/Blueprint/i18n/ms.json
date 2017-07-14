@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Anakmalaysia"
+		]
+	},
+	"blueprint-skin-desc": "Blueprint menggabungkan tindakan laman, navigasi tapak, dan Senarai Isi Kandungan laman semasa ke dalam satu bar navigasi yang hanya dipaparkan atas permintaan",
+	"blueprint-left-nav": "* [[Main Page|Laman Utama]]"
+}

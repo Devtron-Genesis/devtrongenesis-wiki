@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"WikiPhoenix",
+			"Lokal Profil"
+		]
+	},
+	"skinname-blueprint": "Blueprint",
+	"blueprint-skin-desc": "Blueprint kombinerar sidåtgärder, sidnavigering och den aktuella sidans innehållsförteckning till ett navigeringsfält som endast visas på begäran",
+	"blueprint-left-nav": "* [[Main Page|Huvudsida]]",
+	"blueprint-anon-username": "Anonym användare",
+	"blueprint-skip-to-content": "Hoppa till innehåll",
+	"blueprint-skip-to-nav": "Hoppa till navigering"
+}

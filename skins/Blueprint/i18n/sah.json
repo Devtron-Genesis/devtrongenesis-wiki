@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"HalanTul",
+			"Ай-Куо"
+		]
+	},
+	"blueprint-skin-desc": "Blueprint диэн көрдөөтөххө көстөр навигация паныалыгар сирэйгэ үлэлэри, сайтка навигацияны уонна билиҥҥи сирэй\"иһинээҕитин\" түмэр",
+	"blueprint-left-nav": "* [[Main Page]]",
+	"blueprint-anon-username": "аатын эппэтэх кыттааччы",
+	"blueprint-skip-to-content": "иһинээҕитигэр",
+	"blueprint-skip-to-nav": "навигацияҕа көһүү"
+}

@@ -1,0 +1,56 @@
+{
+	"name": "Splash",
+	"version": "1.1",
+	"author": [
+		"Calimonius the Estrange"
+	],
+	"url": "https://www.mediawiki.org/wiki/Skin:Splash",
+	"descriptionmsg": "splash-skin-desc",
+	"license-name": "GPL-2.0+",
+	"type": "skin",
+	"ValidSkinNames": {
+		"splash": "Splash"
+	},
+	"MessagesDirs": {
+		"SkinSplash": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"SkinSplash": "Splash.skin.php",
+		"SplashTemplate": "Splash.skin.php"
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteSkinPath": "Splash"
+	},
+	"ResourceModules": {
+		"skins.splash": {
+			"styles": {
+				"resources/normalise.css": {
+					"media": "screen"
+				},
+				"resources/fonts.css": {
+					"media": "screen"
+				},
+				"resources/screen.less": {
+					"media": "screen"
+				}
+			},
+			"position": "top"
+		}
+	},
+	"ResourceModuleSkinStyles": {
+		"splash": {
+			"mediawiki.ui": [],
+			"mediawiki.ui.checkbox": [],
+			"mediawiki.ui.anchor": [],
+			"mediawiki.ui.button": [],
+			"mediawiki.ui.input": [],
+			"mediawiki.ui.radio": [],
+			"mediawiki.ui.icon": [],
+			"mediawiki.ui.text": []
+		}
+	},
+	"manifest_version": 1
+}

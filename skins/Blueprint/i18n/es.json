@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Macofe"
+		]
+	},
+	"blueprint-skin-desc": "Blueprint combina acciones de página, la navegación del sitio y la tabla de contenidos de la página actual en una barra de navegación que se muestran únicamente si se demanda",
+	"blueprint-left-nav": "* [[Main Page|Página Principal]]",
+	"blueprint-anon-username": "Usuario anónimo",
+	"blueprint-skip-to-content": "Saltar al contenido",
+	"blueprint-skip-to-nav": "Saltar a la navegación"
+}

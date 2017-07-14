@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"blueprint-skin-desc": "Blueprint combina les aiciones na páxina, la navegación del sitiu y la tabla de conteníu de la páxina actual nuna barra de navegación que sólo s'amuesa baxo pidimientu",
+	"blueprint-left-nav": "* [[Main Page|Portada]]",
+	"blueprint-anon-username": "Usuariu anónimu",
+	"blueprint-skip-to-content": "Saltar al conteníu",
+	"blueprint-skip-to-nav": "Saltar a navegación"
+}

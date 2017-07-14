@@ -1,0 +1,17 @@
+{
+	"name": "Donate",
+	"author": [],
+	"url": "https://www.mediawiki.org/wiki/Skin:Donate",
+	"type": "skin",
+	"ValidSkinNames": {
+		"Donate": "Donate"
+	},
+	"SkipSkins": "Donate",
+	"AutoloadClasses": {
+		"SkinDonate": "Donate.class.php"
+	},
+	"config": {
+		"DonateSkinPath": false
+	},
+	"manifest_version": 1
+}

@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sveinn í Felli"
+		]
+	},
+	"skinname-blueprint": "Blueprint",
+	"blueprint-skin-desc": "Blueprint sameinar síðuaðgerðir, vefflakk, efnisyfirlit síðunnar í eina leiðsagnarstiku sem birtist aðeins þegar þörf krefur",
+	"blueprint-left-nav": "* [[Main Page|Forsíða]]\n\\",
+	"blueprint-anon-username": "Óskráður notandi",
+	"blueprint-skip-to-content": "Hoppa í efni",
+	"blueprint-skip-to-nav": "Hoppa í leiðsagnarham"
+}

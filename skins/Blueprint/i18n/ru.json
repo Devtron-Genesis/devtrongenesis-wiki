@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Okras",
+			"INS Pirat"
+		]
+	},
+	"blueprint-skin-desc": "Blueprint объединяет в панель навигации, которая показывается только по требованию, действия со страницами, навигацию по сайту, и «Содержание» текущей страницы.",
+	"blueprint-left-nav": "* [[Main Page]]",
+	"blueprint-anon-username": "Анонимный участник",
+	"blueprint-skip-to-content": "Перейти к содержанию",
+	"blueprint-skip-to-nav": "Перейти к навигации"
+}

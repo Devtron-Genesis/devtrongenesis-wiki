@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64",
+			"Volker E."
+		]
+	},
+	"blueprint-skin-desc": "Blueprint kombiniert Seitenaktionen, die Websitenavigation und das Inhaltsverzeichnis der aktuellen Seite in eine Navigationsleiste, die nur bedarfsweise angezeigt wird.",
+	"blueprint-left-nav": "* [[Main Page]]",
+	"blueprint-anon-username": "Anonymer Benutzer",
+	"blueprint-skip-to-content": "Zum Inhalt springen",
+	"blueprint-skip-to-nav": "Zur Navigation springen"
+}

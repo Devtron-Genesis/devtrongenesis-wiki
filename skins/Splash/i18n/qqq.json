@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Isarra",
+			"Raymond",
+			"Beta16",
+			"Tacsipacsi"
+		]
+	},
+	"splash-skin-desc": "{{desc|what=skin|name=Splash|url=https://www.mediawiki.org/wiki/Skin:Splash}}",
+	"site-banner": "{{ignore}}\nUsed as the banner text for the site.",
+	"global-links-menu": "{{ignore}}\nOptional menu that appears at the top left of the skin, above the banner. Parses like a mini sidebar.",
+	"content-footer": "{{ignore}}\nOptional footer content to display after the page content."
+}

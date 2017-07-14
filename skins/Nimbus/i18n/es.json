@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Armando-Martin",
+			"Macofe"
+		]
+	},
+	"nimbus-desc": "Aparencia Nimbus",
+	"nimbus-advertise": "Anunciar",
+	"nimbus-contribute": "Contribuir",
+	"nimbus-didyouknow": "¿Sabía usted?",
+	"nimbus-featuredimage": "Imagen destacada",
+	"nimbus-featureduser": "Usuario destacado",
+	"nimbus-login": "Iniciar sesión",
+	"nimbus-logout": "¿Cerrar la sesión?",
+	"nimbus-more-actions": "Más acciones",
+	"nimbus-more-wikis": "Más wikis",
+	"nimbus-pages-can-be-edited": "Se puede editar esta página.<br />\n¿Está incompleta esta página? ¿Hay algo mal?<br />\n<b>¡Cámbialo!</b>",
+	"nimbus-profile": "Perfil",
+	"nimbus-recent-contributors": "Colaboradores recientes a esta página",
+	"nimbus-recent-contributors-info": "Recientemente, las siguientes personas contribuyeron a esta página.",
+	"nimbus-signup": "Registrarse",
+	"nimbus-welcome": "{{GENDER:$2|Bienvenido|Bienvenida}} $1"
+}

@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mirws",
+			"Kenrick95"
+		]
+	},
+	"apex-action-addsection": "Tambah topik",
+	"apex-action-delete": "Hapus",
+	"apex-action-move": "Pindahkan",
+	"apex-action-protect": "Lindungi",
+	"apex-action-undelete": "Batalkan penghapusan",
+	"apex-action-unprotect": "Ubah perlindungan",
+	"apex-view-create": "Buat",
+	"apex-view-edit": "Sunting",
+	"apex-view-history": "Lihat riwayat",
+	"apex-view-view": "Baca",
+	"apex-view-viewsource": "Lihat sumber"
+}

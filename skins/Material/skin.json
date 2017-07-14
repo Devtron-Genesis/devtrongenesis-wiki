@@ -1,0 +1,89 @@
+{
+	"name": "Material",
+	"namemsg": "skinname-material",
+	"version": "1.3.2",
+	"author": [
+		"[https://mediawiki.org/wiki/User:SamanthaNguyen SamanthaNguyen]",
+		"[https://mediawiki.org/wiki/User:MtMNC MtMNC]",
+		"[https://mediawiki.org/wiki/User:Jack_Phoenix Jack Phoenix]",
+		"[https://mediawiki.org/wiki/User:George_Barnick George Barnick]"
+	],
+	"url": "https://www.mediawiki.org/wiki/Skin:Material",
+	"descriptionmsg": "material-desc",
+	"license-name": "GPL-3.0+",
+	"type": "skin",
+	"ValidSkinNames": {
+		"material": "Material"
+	},
+	"AutoloadClasses": {
+		"SkinMaterial": "Material.skin.php",
+		"MaterialTemplate": "Material.skin.php"
+	},
+	"MessagesDirs": {
+		"Material": [
+			"i18n"
+		]
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteSkinPath": "Material"
+	},
+	"ResourceModules": {
+		"skins.material": {
+			"styles": {
+				"material/styles/base/md-ui.base.print.less": {
+					"media": "print"
+				},
+				"material/styles/base/md-ui.base.colors.less": {
+					"media": "screen"
+				},
+				"material/styles/base/md-ui.base.icons.less": {
+					"media": "screen"
+				},
+				"material/styles/base/md-ui.base.motion.less": {
+					"media": "screen"
+				},
+				"material/styles/base/md-ui.base.variables.less": {
+					"media": "screen"
+				},
+				"material/styles/base/md-ui.base.main.less": {
+					"media": "screen"
+				},
+				"material/styles/components/md-ui.components.categories.less": {
+					"media": "screen"
+				},
+				"material/styles/components/md-ui.components.datatable.less": {
+					"media": "screen"
+				},
+				"material/styles/components/md-ui.components.footer.less": {
+					"media": "screen"
+				},
+				"material/styles/components/md-ui.components.header.less": {
+					"media": "screen"
+				},
+				"material/styles/components/md-ui.components.sidebar.less": {
+					"media": "screen"
+				},
+				"material/styles/components/md-ui.components.tabs.less": {
+					"media": "screen"
+				},
+				"material/styles/components/md-ui.components.toc.less": {
+					"media": "screen"
+				}
+			}
+		},
+		"skins.material.js": {
+			"scripts": [
+				"material/scripts/main.js"
+			],
+			"position": "top",
+			"dependencies": "jquery.ui.dialog"
+		}
+	},
+	"ResourceModuleSkinStyles": {
+		"material": {
+			"+mediawiki.special.preferences": "material/styles/specials/md-ui.specials.preferences.less"
+		}
+	},
+	"manifest_version": 1
+}

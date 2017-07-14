@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80"
+		]
+	},
+	"blueprint-skin-desc": "בלופרינט משלב פעולות דף, ניווט אתר ותוכן העניינים של הדף הנוכחי לסרגל ניווט שמוצג רק לפי דרישה",
+	"blueprint-left-nav": "* [[Main Page|עמוד ראשי]]",
+	"blueprint-anon-username": "משתמש אלמוני",
+	"blueprint-skip-to-content": "מעבר לתוכן",
+	"blueprint-skip-to-nav": "מעבר לניווט"
+}

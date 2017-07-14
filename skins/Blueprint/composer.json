@@ -1,0 +1,35 @@
+{
+	"name"       : "mediawiki/blueprint-skin",
+	"type"       : "mediawiki-skin",
+	"description": "MediaWiki skin for the the living style guide",
+	"keywords"   : [
+		"wiki",
+		"MediaWiki",
+		"skin"
+	],
+	"homepage"   : "https://www.mediawiki.org/wiki/Skin:Blueprint",
+	"license"    : "MIT",
+	"authors"    : [
+		{
+			"name" : "Andrew Garrett"
+		},
+		{
+			"name" : "Prateek Saxena"
+		}
+	],
+	"support"    : {
+		"wiki"  : "https://www.mediawiki.org/wiki/Skin:Blueprint",
+		"source": "https://phabricator.wikimedia.org/diffusion/SBLU/",
+		"irc"   : "irc://irc.freenode.org/mediawiki"
+	},
+	"require-dev": {
+		"jakub-onderka/php-parallel-lint": "0.9",
+		"mediawiki/mediawiki-codesniffer": "0.4.0"
+	},
+	"scripts": {
+		"test": [
+			"parallel-lint . --exclude vendor",
+			"phpcs -p -s"
+		]
+	}
+}

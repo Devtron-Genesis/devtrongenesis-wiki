@@ -1,0 +1,30 @@
+{
+	"name": "Synagonism",
+	"author": [],
+	"url": "https://www.mediawiki.org/wiki/Skin:Synagonism",
+	"type": "skin",
+	"ValidSkinNames": {
+		"synagonism": "Synagonism"
+	},
+	"AutoloadClasses": {
+		"SkinSynagonism": "SkinSynagonism.php"
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "Synagonism"
+	},
+	"ResourceModules": {
+		"skins.synagonism": {
+			"styles": {
+				"modules/skins.synagonism.css": {
+					"media": "screen"
+				},
+				"modules/skins.synagonism.print.css": {
+					"media": "print"
+				}
+			},
+			"scripts": "modules/skins.synagonism.js"
+		}
+	},
+	"manifest_version": 1
+}

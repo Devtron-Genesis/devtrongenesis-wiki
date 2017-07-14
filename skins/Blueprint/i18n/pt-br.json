@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cainamarques",
+			"HenriqueCrang"
+		]
+	},
+	"blueprint-skin-desc": "Blueprint combina ações em página, navegação pelo site, e o índice de conteúdo da página atual em uma barra de navegação que é exibida apenas sob demanda",
+	"blueprint-left-nav": "* [[Main Page|Página principal]]",
+	"blueprint-anon-username": "Usuário anônimo",
+	"blueprint-skip-to-content": "Pular para conteúdo",
+	"blueprint-skip-to-nav": "Pular para navegação"
+}

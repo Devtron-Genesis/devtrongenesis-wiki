@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Srdjan m"
+		]
+	},
+	"blueprint-left-nav": "* [[Main Page|Početna strana]]",
+	"blueprint-anon-username": "Anonimni korisnik",
+	"blueprint-skip-to-content": "Pređi na sadržaj",
+	"blueprint-skip-to-nav": "Pređi na navigaciju"
+}

@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"SolidBlock"
+		]
+	},
+	"blueprint-left-nav": "* [[Main Page|卷首]]",
+	"blueprint-anon-username": "過客$1",
+	"blueprint-skip-to-content": "躍至文",
+	"blueprint-skip-to-nav": "躍之導航"
+}

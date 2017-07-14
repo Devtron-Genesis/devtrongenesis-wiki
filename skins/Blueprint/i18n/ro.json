@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Strainu",
+			"Minisarm"
+		]
+	},
+	"blueprint-skin-desc": "Blueprint combină butoanele de acțiune asupra paginilor, navigarea pe site și actualul Cuprins al paginii într-o bară de navigare care este afișată la cerere",
+	"blueprint-left-nav": "* [[Main Page|Pagina Principală]]"
+}

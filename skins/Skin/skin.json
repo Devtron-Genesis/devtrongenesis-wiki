@@ -1,0 +1,93 @@
+{
+	"name": "Scaffold",
+	"version": "1.0",
+	"author": "Andru Vallance <andru@tinymighty.com>",
+	"url": "https://www.mediawiki.org/wiki/Skin:Scaffold",
+	"descriptionmsg": "scaffold-skindesc",
+	"namemsg": "scaffold-skinname",
+	"license-name": "MIT",
+	"type": "skin",
+	"ValidSkinNames": {
+		"scaffold": "Scaffold"
+	},
+	"MessagesDirs": {
+		"Scaffold": [
+			"i18n"
+		]
+	},
+	"ResourceModules": {
+    "skins.scaffold.fontawesome": {
+      "position": "top",
+      "styles": {
+        "resources/font-awesome-4.0.3/css/font-awesome.css": {
+          "media": "screen"
+        }
+      }
+    },
+    "skins.scaffold.bootstrap.css": {
+      "position": "top",
+      "styles": {
+        "resources/bootstrap-3.0.3/css/bootstrap.css": {
+          "media": "screen"
+        }
+      }
+    },
+    "skins.scaffold.bootstrap.js": {
+      "position": "top",
+      "scripts": [
+        "resources/bootstrap-3.0.3/js/bootstrap.js"
+      ],
+			"dependencies": []
+    },
+		"skins.scaffold": {
+			"class": "ResourceLoaderSkinModule",
+			"position": "top",
+			"styles": {
+				"layouts/base/css/scaffold.less": {
+					"media": "screen"
+				},
+				"layouts/base/css/print.less": {
+					"media": "print"
+				}
+			}
+		},
+		"skins.scaffold.js": {
+			"position": "top",
+			"scripts": [
+				"layouts/base/js/init.js"
+			],
+      "dependencies": ["skins.scaffold.bootstrap.js"]
+		},
+		"skins.scaffold.layouts.default.css": {
+			"class": "ResourceLoaderSkinModule",
+			"position": "top",
+			"styles": {
+
+			}
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteSkinPath": "Scaffold"
+	},
+	"AutoloadClasses": {
+    "Scaffold": "Scaffold.class.php",
+		"SkinScaffold": "Skin.php",
+		"ScaffoldTemplate": "Template.php",
+		"Scaffold\\Layouts\\Base": "layouts/base/Base.php",
+		"Scaffold\\Layouts\\DefaultLayout": "layouts/default/Default.php"
+	},
+  "config": {
+      "_prefix": "egScaffold",
+      "Layouts": {
+				"base": "Scaffold\\Layouts\\Base",
+				"default": "Scaffold\\Layouts\\DefaultLayout"
+			},
+			"DefaultLayout": "default"
+  },
+	"Hooks": {
+		"BeforeInitialize": ["Scaffold::init"],
+		"SetupAfterCache": ["Scaffold::onSetupAfterCache"]
+	},
+	"manifest_version": 1
+}

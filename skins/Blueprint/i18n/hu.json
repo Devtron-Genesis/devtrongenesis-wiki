@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Máté"
+		]
+	},
+	"blueprint-left-nav": "* [[Main Page|Kezdőlap]]",
+	"blueprint-anon-username": "Névtelen felhasználó",
+	"blueprint-skip-to-content": "Ugrás a tartalomhoz",
+	"blueprint-skip-to-nav": "Ugrás a navigációhoz"
+}

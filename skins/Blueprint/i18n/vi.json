@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Minh Nguyen"
+		]
+	},
+	"skinname-blueprint": "Thiết kế",
+	"blueprint-skin-desc": "Kế hoạch kết hợp các tác vụ trang, cách chuyển hướng website, và mục lục của trang hiện tại vào một thanh chuyển hướng chỉ xuất hiện khi nào cần",
+	"blueprint-left-nav": "* [[Main Page|Trang Chính]]",
+	"blueprint-anon-username": "Người dùng vô danh",
+	"blueprint-skip-to-content": "Bước tới nội dung",
+	"blueprint-skip-to-nav": "Buớc tưới chuyển hướng"
+}

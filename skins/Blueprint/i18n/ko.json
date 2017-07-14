@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"아라",
+			"Kwj2772",
+			"Revi"
+		]
+	},
+	"blueprint-skin-desc": "블루프린트는 문서 동작, 사이트 둘러보기, 현재 문서의 목차를 요청해야 보이는 둘러보기 막대 안으로 결합합니다",
+	"blueprint-left-nav": "* [[Main Page|대문]]",
+	"blueprint-anon-username": "익명 사용자",
+	"blueprint-skip-to-content": "내용으로 건너뛰기",
+	"blueprint-skip-to-nav": "둘러보기로 건너뛰기"
+}

@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kandar"
+		]
+	},
+	"blueprint-skin-desc": "Blueprint ngagabungkeun ketak kaca, navigasi loka, jeung Daptar Eusi ayeuna jadi batang navigasi anu ukur némbongan lamun dipénta",
+	"blueprint-left-nav": "* [[Main Page|Tepas]]",
+	"blueprint-anon-username": "Pamaké anonim",
+	"blueprint-skip-to-content": "Luncat ka eusi",
+	"blueprint-skip-to-nav": "Luncat ka navigasi"
+}

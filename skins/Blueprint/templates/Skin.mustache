@@ -1,0 +1,89 @@
+{{{headelement}}}
+	<a href="#sidebar" class="is-aural" tabindex="0">{{blueprint-skip-to-nav}}</a>
+	<a href="#content" class="is-aural" tabindex="0">{{blueprint-skip-to-content}}</a>
+	<header class="navbar navbar-fixed-top" role="banner">
+		<div class="navbar-header">
+			<ul class="nav navbar-nav navbar-head">
+				<li><a href="#sidebar" id="toc-toggle"></a></li>
+				<li><a class="navbar-brand" href="{{{wiki_homepage_url}}}">{{sitename}}</a></li>
+				<li id="extra-space"></li>
+			</ul>
+		</div>
+		<div class="collapse navbar-collapse" id="navbar-collapse">
+			<div id="navbar-right">
+				<form class="navbar-form navbar-left" action="{{{scriptpath}}}">
+					<div role="search">
+						<input type="search" id="searchInput" name="search" class="form-control search-input" placeholder="{{{search_placeholder}}}">
+						<label for="searchInput" class="search-input-label">{{{search_label}}}</label>
+						{{{search_title}}}
+					</div>
+				</form>
+				<ul class="nav navbar-nav navbar-right">
+					<li class="dropdown">
+						<a href="#" class="account-menu dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+							{{username}}
+						</a>
+						<ul class="dropdown-menu" role="menu">
+							{{#each personal_urls}}
+								<li role="menuitem"><a href="{{href}}" class="{{stringOrArray class}}">{{text}}</a></li>
+							{{/each}}
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<nav class="sidebar" id="sidebar" role="navigation">
+		{{>sidebar}}<!-- comment necessary to rebuild sidebar -->
+	</nav>
+	<main class="container" id="content" role="main">
+		{{#if sitenotice}}
+			<div id="siteNotice">{{{sitenotice}}}</div>
+		{{/if}}
+		{{{html_indicators}}}
+		{{#if title}}
+			<h1 class="firstHeading" id="firstHeading">{{{title}}}</h1>
+		{{/if}}
+		{{{prebodyhtml}}}
+		{{#if isarticle}}
+			<div id="siteSub">{{msg 'tagline'}}</div>
+		{{/if}}
+		<div id="contentSub" {{{userlangattributes}}}>{{{subtitle}}}</div>
+		{{#if undelete}}
+			<div id="contentSub2">{{{undelete}}}</div>
+		{{/if}}
+		{{#if newtalk}}
+			<div class="usermessage">{{newtalk}}</div>
+		{{/if}}
+		<div class="mw-body-content" id="bodyContent">{{{bodytext}}}</div>
+		{{{catlinks}}}
+		{{{dataAfterContent}}}
+		{{{debughtml}}} {{!
+			It is result of Skin::generateDebugHTML() { MWDebug::getHTMLDebugLog() }
+			Which generates debug data HTML for displaying at the bottom of the main content area.
+			It is different of MWDebug::getDebugHTML(), used below as 'getdebughtml'.
+		}}
+	</main>
+	<footer class="footer" role="contentinfo">
+	{{#if footer_links}}
+		<ul>
+		{{#each footer_links}}
+			<li><a href="{{url}}">{{text}}</a></li>
+		{{/each}}
+		</ul>
+	{{/if}}
+	{{#if printfooter}}
+		<div class="printfooter">
+			{{{printfooter}}}
+		</div>
+	{{/if}}
+	</footer>
+{{!
+PHP skins tend to $this->printTrail();
+`printTrail()` outputs MWDebug::getDebugHTML(), bottomscripts, reporttime
+}}
+{{{getdebughtml}}}
+{{{bottomscripts}}}
+{{{reporttime}}}
+</body>
+</html>

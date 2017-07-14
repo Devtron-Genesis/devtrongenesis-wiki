@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"skinname-blueprint": "Син печат",
+	"blueprint-skin-desc": "„Син печат“ ги става на едно место дејствата и упатувањата во викито, како и прегледот на содржини на тековната страница во еден страничник што се прикажува само по барање",
+	"blueprint-left-nav": "* [[Main Page|Главна страница]]",
+	"blueprint-anon-username": "Анонимен корисник",
+	"blueprint-skip-to-content": "Прејди на содржината",
+	"blueprint-skip-to-nav": "Прејди на навигација"
+}

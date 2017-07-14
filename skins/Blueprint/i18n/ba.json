@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sagan",
+			"Азат Хәлилов"
+		]
+	},
+	"blueprint-skin-desc": "Blueprint навигация панелына берләштереп, кәрәк ваҡытта, биттәрҙең үҙгәрештәрен, сайт буйынса навигация һәм уның эстәлеге буйынса мәғлүмәт тәҡдим итә.",
+	"blueprint-left-nav": "* [[Main Page|Баш бит]]",
+	"blueprint-anon-username": "Аноним ҡулланыусылар",
+	"blueprint-skip-to-content": "Йөкмәткегә күсеү",
+	"blueprint-skip-to-nav": "Навигацияға күсергә"
+}

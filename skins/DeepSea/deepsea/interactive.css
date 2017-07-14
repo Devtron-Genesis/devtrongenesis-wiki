@@ -1,0 +1,52 @@
+/* INTERACTIVE.CSS */
+.vectorTabs li, 
+.vectorMenu li, 
+.vectorMenu, .submenu a {
+	transition: background-color 0.3s;
+}
+
+.vectorTabs li:hover, 
+.vectorMenu li:hover, 
+.vectorMenu:hover .submenu a:hover {
+	background-color: #fff !important;
+}
+
+.submenu a:hover {
+	text-decoration: none;
+	background-color: #fff !important;
+}
+
+div#mw-panel div.portal div.body ul li {
+	transition: background-color 0.3s;
+}
+
+div#mw-panel div.portal div.body ul li:hover {
+	background-color: #fff;
+}
+
+#p-media li, 
+#p-personal li {
+	transition: background-color 0.3s;
+}
+
+#p-media li:not(.not-link):hover, 
+#p-personal li:hover {
+	background-color: #fff;
+}
+
+#p-search form {
+	position: relative;
+	top: -1px;
+}
+#p-search input[type=submit] {
+	display: none;
+}
+
+#p-search input#searchInput {
+	width: 100px !important;
+	transition: width 0.3s;
+}
+
+#p-search input#searchInput.expand {
+	width: 200px !important;
+}

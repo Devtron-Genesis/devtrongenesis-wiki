@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"blueprint-skin-desc": "Blueprint kombinerer sidehandlinger, sidenavigering og sidens innholdsfortegnelse til en navigasjonsbar som bare vises ved behov",
+	"blueprint-left-nav": "* [[Main Page|Hovedside]]",
+	"blueprint-anon-username": "Anonym bruker",
+	"blueprint-skip-to-content": "Hopp til innhold",
+	"blueprint-skip-to-nav": "Hopp til navigasjon"
+}

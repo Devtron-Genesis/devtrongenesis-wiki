@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Siebrand",
+			"Sjoerddebruin"
+		]
+	},
+	"blueprint-skin-desc": "Blueprint combineert paginahandelingen, sitenavigatie en de inhoudsopgave van de huidige pagina in een navigatiebalk die alleen wordt weergegeven op aanvraag.",
+	"blueprint-left-nav": "* [[Main Page|Hoofdpagina]]",
+	"blueprint-anon-username": "Anonieme gebruiker",
+	"blueprint-skip-to-content": "Doorgaan naar inhoud",
+	"blueprint-skip-to-nav": "Naar navigatie gaan"
+}

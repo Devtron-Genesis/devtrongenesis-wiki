@@ -1,0 +1,43 @@
+{
+	"name": "Dusk",
+	"version": "2.2",
+	"author": [
+		"Gregory S. Hayes",
+		"Becca Wei",
+		"Jack Phoenix"
+	],
+	"url": "https://www.mediawiki.org/wiki/Skin:Dusk",
+	"description": "Dusk MediaWiki skin, based on WordPress Dusk theme",
+	"license-name": "GPL-2.0+",
+	"type": "skin",
+	"ValidSkinNames": {
+		"dusk": "Dusk"
+	},
+	"AutoloadClasses": {
+		"SkinDusk": "Dusk.skin.php",
+		"DuskTemplate": "Dusk.skin.php"
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteSkinPath": "Dusk"
+	},
+	"ResourceModules": {
+		"skins.dusk": {
+			"styles": {
+				"resources/css/main.css": {
+					"media": "screen"
+				}
+			},
+			"position": "top"
+		},
+		"themeloader.skins.dusk.green": {
+			"styles": {
+				"resources/themes/green/green.css": {
+					"media": "screen"
+				}
+			},
+			"position": "top"
+		}
+	},
+	"manifest_version": 1
+}

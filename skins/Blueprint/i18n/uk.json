@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dars",
+			"Base",
+			"Ата",
+			"Andriykopanytsia"
+		]
+	},
+	"blueprint-skin-desc": "«Синька» поєднує в собі дії над сторінкою, навігацію по сайту і Зміст поточної сторінки в панель навігації, яка відображається тільки за запитом",
+	"blueprint-left-nav": "* [[Main Page|Головна сторінка]]",
+	"blueprint-anon-username": "Анонімний користувач",
+	"blueprint-skip-to-content": "Перейти до матеріалу",
+	"blueprint-skip-to-nav": "Перейти до навігації"
+}

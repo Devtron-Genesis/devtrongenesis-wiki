@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Reza1615"
+		]
+	},
+	"blueprint-skin-desc": "بلوپرینت شامل عملیات‌های صفحه، ناوبری سایت و فهرست محتویات صفحه در یک نوار ناوبری است که تنها در صورت درخواست نمایش داده می‌شود.",
+	"blueprint-left-nav": "* [[Main Page]]",
+	"blueprint-anon-username": "کاربر ناشناس",
+	"blueprint-skip-to-content": "پرش به محتوا",
+	"blueprint-skip-to-nav": "پرش به هدایت‌کننده"
+}

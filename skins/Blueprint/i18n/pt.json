@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu",
+			"Vitorvicentevalente"
+		]
+	},
+	"blueprint-skin-desc": "O tema Blueprint combina as ações da página, a navegação do sítio e a tabela de conteúdo da página, numa barra de navegação que só é mostrada a pedido.",
+	"blueprint-left-nav": "* [[Main Page|Página Principal]]",
+	"blueprint-anon-username": "Utilizador anónimo",
+	"blueprint-skip-to-content": "Avançar para o conteúdo",
+	"blueprint-skip-to-nav": "Avançar para a navegação"
+}

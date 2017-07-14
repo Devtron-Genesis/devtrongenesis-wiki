@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps",
+			"The Polish"
+		]
+	},
+	"blueprint-skin-desc": "Blueprint łączy w jednym pasku nawigacji, który pojawia się tylko na żądanie, działania ze stronami, nawigację strony oraz spis treści bieżącej strony.",
+	"blueprint-left-nav": "* [[Main Page|Strona główna]]",
+	"blueprint-anon-username": "Anonimowy użytkownik",
+	"blueprint-skip-to-content": "Przejdź do treści",
+	"blueprint-skip-to-nav": "Przejdź do nawigacji"
+}

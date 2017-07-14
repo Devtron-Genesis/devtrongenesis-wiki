@@ -1,0 +1,77 @@
+{
+	"name": "Gamepress",
+	"version": "1.0.8",
+	"author": [
+		"[http://webtuts.pl/themes/ Aleksandra Łączek]",
+		"Jack Phoenix",
+		"[http://en.uncyclopedia.co/wiki/User:Bizzeebeever Bizzeebeever]"
+	],
+	"url": "https://www.mediawiki.org/wiki/Skin:Gamepress",
+	"license-name": "GPL-2.0+",
+	"description": "Easy-to-use gaming-oriented skin",
+	"type": "skin",
+	"ValidSkinNames": {
+		"gamepress": "Gamepress"
+	},
+	"MessagesDirs": {
+		"SkinGamepress": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"SkinGamepress": "Gamepress.skin.php",
+		"GamepressTemplate": "Gamepress.skin.php",
+		"GamepressSkinNavigationService": "Gamepress.skin.php"
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteSkinPath": "Gamepress"
+	},
+	"ResourceModules": {
+		"skins.gamepress": {
+			"styles": {
+				"resources/css/reset.css": {
+					"media": "screen"
+				},
+				"resources/css/style.css": {
+					"media": "screen"
+				},
+				"resources/css/dark.css": {
+					"media": "screen"
+				},
+				"resources/css/mobile.css": {
+					"media": "screen and (max-width: 750px)"
+				}
+			},
+			"scripts": [
+				"resources/js/jquery.easing.1.3.js",
+				"resources/js/modernizr-custom.js",
+				"resources/js/jquery.tools.min.js",
+				"resources/js/gamepress.js"
+			],
+			"position": "top"
+		},
+		"themeloader.skins.gamepress.blue": {
+			"styles": {
+				"resources/images/blue/style.css": {
+					"media": "screen"
+				}
+			}
+		},
+		"themeloader.skins.gamepress.green": {
+			"styles": {
+				"resources/images/green/style.css": {
+					"media": "screen"
+				}
+			}
+		},
+		"themeloader.skins.gamepress.orange": {
+			"styles": {
+				"resources/images/orange/style.css": {
+					"media": "screen"
+				}
+			}
+		}
+	},
+	"manifest_version": 1
+}

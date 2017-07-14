@@ -1,0 +1,282 @@
+/*
+ * Keep in mind that this skin is still in beta stage and it may come to problems!
+ * Denke daran, dass dieser sich dieser Skin im Beta-Stadium befindet und es zu Problemen kommen kann!
+ */
+
+/* Grundsätzliches */
+
+* {
+	font-family: 'Arial', sans-serif;
+}
+
+body {
+	background: #EBEBEB url('Hintergrundbild.png');
+}
+
+::-moz-selection {
+	background-color: #FAE119;
+}
+
+::selection {
+	background-color: #FAE119;
+}
+
+/* Beta-Stuff (pls. remove if not necessary) */
+.beta {
+	background-color: #EAA952;
+	box-shadow: .5px .5px 1px #ECA624;
+	border-radius: 2px;
+	bottom: 25px;
+	color: white;
+	font-family: 'Droid Sans', sans-serif;
+	left: 5px;
+	text-align: center;
+	text-shadow: .5px .5px 1px #545252;
+	padding: 0 2px 1px 2px;
+	position: fixed;
+}
+
+/* MediaWiki-Head */
+#mw-head {
+	background-color: #A9A9A9;
+	box-shadow: 0px 1px 2px #A9A5A5;
+	display: inline-block;
+	min-height: 45px;
+	height: auto;
+	left: 0;
+	position: absolute;
+	text-shadow: 1px 1px 2px #696767;
+	top: 0;
+	min-width: 650px;
+	width: 100%;
+}
+
+#mw-head a {
+	color: white;
+	text-decoration: none;
+}
+
+.logo {
+	font-family: 'Trebuchet MS', sans-serif;
+	font-size: 225%;
+	font-weight: 700;
+	margin: 0 25px 0 25px;
+	text-shadow: 2px 2px 4px #616060;
+}
+
+.mw-head {
+	float: right;
+	list-style-type: none;
+	margin: 0;
+	padding: 12px 22px 12px 0;
+}
+
+.mw-head li {
+	display: inline;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 90%;
+	list-style-type: none;
+	padding: 0 3px 0 3px;
+}
+
+#mw-head form {
+	display: inline;
+}
+
+#mw-head input, #mw-head button {
+	border-style: solid;
+	border-color: transparent;
+	border-radius: 3px;
+	height: 25px;
+	margin: 6px 0 6px 0;
+	padding-left: 2px;
+	outline: none;
+	margin-right: none;
+	vertical-align: top;
+}
+
+#mw-head button {
+	background-color: transparent;
+	border: none;
+	margin-left: -22px;
+}
+
+/* MediaWiki-Wrapper [CODE NOCH HINZUFÜGEN] */
+#mw-wrapper {
+	margin: 75px 0 30px 0;
+}
+
+/* MediaWiki-Benachrichtigung */
+.usermessage {
+	background-color: #EAA952;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 1px 1px 2px #ECA624;
+	color: white;
+	font-weight: 600;
+	height: auto;
+	margin: 0 0 30px 30px;
+	text-align: left;
+	text-shadow: .5px .5px 2px #545252;
+	padding: 2.5px 10px 2.5px 10px;
+	width: 300px;
+}
+
+.usermessage a {
+	color: #971421;
+	text-decoration: none;
+	text-shadow: none;
+}
+
+#siteNotice {
+	background-color: #EAA952;
+	border-radius: 5px;
+	box-shadow: 1px 1px 2px #ECA624;
+	color: white;
+	height: auto;
+	margin: 0 0 30px 30px;
+	text-align: left;
+	text-shadow: .5px .5px 2px #545252;
+	padding: 2.5px 10px 2.5px 10px;
+	width: 300px;
+}
+
+#localNotice {
+	margin-bottom: 0;
+}
+
+span.subpages {
+	font-size: 85%;
+	margin: 15px 0 -15px 0;
+}
+
+/* MediaWiki-Content */
+#mw-content-text {
+	font-size: 1em;
+}
+
+#content {
+	background-color: white;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top: 7.5px solid #626262;
+	box-shadow: 1px 1px 3px #9B9898;
+	height: auto;
+	margin: 0 auto 0 auto;
+	padding: 10px;
+	width: 90%;
+}
+
+#p-actions li {
+	display: inline;
+	list-style-type: none;
+	background-color: #626262;
+	border-radius: 2px;
+	box-shadow: .5px .5px 1px #484848;
+	padding: 5px;
+	text-align: center;
+	margin: 0 2px 0 2px;
+}
+
+#p-actions ul {
+	display: inline;
+}
+
+#p-actions a {
+	color: white;
+	text-decoration: none;
+}
+
+.selected {
+	background-color: white !important;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none user-select: none;
+}
+
+.selected a {
+	color: #626262 !important;
+}
+
+/* Footer */
+#footer {
+	background-color: white;
+	border-left: 7.5px solid #626262;
+	border-right: 7.5px solid #626262;
+	box-shadow: 1px 1px 3px #9B9898;
+	font-family: 'Helvetica', sans-serif;
+	height: auto;
+	padding: 10px;
+	margin: 30px auto 0 auto;
+	width: 85%;
+}
+
+#footer ul {
+	margin: 0 0 5px 0;
+}
+
+#footer li {
+	display: inline;
+}
+
+#footer a {
+	color: #1C1C1C;
+	text-decoration: none;
+}
+
+.footer-icons li {
+	list-style-type: none;
+	list-style-image: none;
+	padding-left: 5px;
+	float: right;
+}
+
+.footer-icons {
+	clear: both;
+	padding-bottom: 25px;
+}
+
+ul.footer-icons {
+	margin-top: -5px !important;
+}
+
+/* Navbar */
+.navbar {
+	background-color: #626262;
+	border-radius: 5px;
+	bottom: 5px;
+	color: white;
+	font-size: 175%;
+	right: 5px;
+	text-align: center;
+	position: fixed;
+	padding: 0 7.5px 0 7.5px;
+}
+
+.navbar-content {
+	background-color: white;
+	border-right: 7.5px solid #626262;
+	border-top-left-radius: 7.5px;
+	border-bottom-left-radius: 7.5px;
+	bottom: 5px;
+	right: 30px;
+	padding: 10px;
+	position: fixed;
+	height: auto;
+	width: 250px;
+}
+
+.nav ul {
+	display: none;
+}
+
+.nav:hover ul {
+	display: block !important;
+	z-index: 100;
+}
+
+/* In-Content changes */
+.fullImageLink, .fullMedia {
+	text-align: center;
+}

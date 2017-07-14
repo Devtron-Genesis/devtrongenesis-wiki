@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
+	"blueprint-skin-desc": "Blueprint kombinéiert Säitenaktiounen, déi Websitenavigatioun an d'Inhaltsverzeechnes vun der aktueller Säit an eng Navigatiounsleescht, déi just gewise gi wa se gebraucht ginn.",
+	"blueprint-left-nav": "* [[Main Page|Haaptsäit]]",
+	"blueprint-anon-username": "Anonyme Benotzer",
+	"blueprint-skip-to-content": "Op den Inhalt wiesselen",
+	"blueprint-skip-to-nav": "Virun op d'Navigatioun"
+}

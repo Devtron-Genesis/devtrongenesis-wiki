@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nike",
+			"01miki10"
+		]
+	},
+	"blueprint-skin-desc": "Blueprint yhdistää sivun toiminnot, sivustonavigaation ja nykyisen sivun sisällysluettelon navigaatiopalkiksi, joka näytetään vain pyynnöstä",
+	"blueprint-left-nav": "* [[Main Page|Etusivu]]",
+	"blueprint-anon-username": "Anonyymi käyttäjä",
+	"blueprint-skip-to-content": "Siirry sisältöön",
+	"blueprint-skip-to-nav": "Siirry navigaatioon"
+}

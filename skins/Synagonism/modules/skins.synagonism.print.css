@@ -1,0 +1,17 @@
+/**
+ * Synagonism skin - print stylesheet
+ */
+
+#toc,
+#toctitle {
+	/* Hides all the elements irrelevant for printing */
+	display: none;
+}
+
+#idSngTitle {
+	font-size: 174%;
+	font-weight: bold;
+	border-bottom: 1px solid #AAA;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+}

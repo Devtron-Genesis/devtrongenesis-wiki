@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dbc334"
+		]
+	},
+	"blueprint-skin-desc": "Blueprint združuje dejanja strani, navigacijo strani in Kazalo trenutne strani v navigacijski vrstici, ki se prikaže samo na zahtevo",
+	"blueprint-left-nav": "* [[Main Page|Glavna stran]]",
+	"blueprint-anon-username": "Brezimni uporabnik",
+	"blueprint-skip-to-content": "Preskoči na vsebino",
+	"blueprint-skip-to-nav": "Preskoči na navigacijo"
+}

@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"පසිඳු කාවින්ද",
+			"Subi",
+			"Sator"
+		]
+	},
+	"nimbus-didyouknow": "Ba al zenekien",
+	"nimbus-login": "Saioa hasi",
+	"nimbus-more-actions": "Ekintza gehiago",
+	"nimbus-more-wikis": "Wiki gehiago",
+	"nimbus-profile": "Profila",
+	"nimbus-welcome": "{{GENDER:$2|Ongi etorri}} $1"
+}

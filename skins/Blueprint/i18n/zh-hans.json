@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226"
+		]
+	},
+	"blueprint-skin-desc": "Blueprint将页面操作、网站导航及当前页面的目录结合至一个导航栏，并只按需显示",
+	"blueprint-left-nav": "* [[Main Page|首页]]",
+	"blueprint-anon-username": "匿名用户",
+	"blueprint-skip-to-content": "跳到内容",
+	"blueprint-skip-to-nav": "跳到导航"
+}

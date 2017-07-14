@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bluenaranja",
+			"Wladek92",
+			"Gomoko"
+		]
+	},
+	"blueprint-skin-desc": "Blueprint combine actions de page, navigation sur les site et la page en cours, la Table des matières, à l'intérieur d'une barre de navigation qui s'affiche uniquement sur demande.",
+	"blueprint-left-nav": "* [[Main Page]]",
+	"blueprint-anon-username": "Utilisateur anonyme",
+	"blueprint-skip-to-content": "Aller au contenu",
+	"blueprint-skip-to-nav": "Aller à la navigation"
+}

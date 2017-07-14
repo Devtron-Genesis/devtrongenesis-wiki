@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Умар"
+		]
+	},
+	"nimbus-contribute": "Ккъинхьегам",
+	"nimbus-logout": "ДӀадерзадо болх бар?",
+	"nimbus-more-wikis": "Кхин вики-проекташ",
+	"nimbus-welcome": "{{GENDER:$2|Марша догӀийла}}, $1"
+}

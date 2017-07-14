@@ -1,0 +1,64 @@
+{
+	"name": "GreyStuff",
+	"version": "1.0.3",
+	"author": [
+		"Calimonius the Estrange"
+	],
+	"url": "https://www.mediawiki.org/wiki/Skin:GreyStuff",
+	"descriptionmsg": "greystuff-desc",
+	"license-name": "GPL-2.0+",
+	"type": "skin",
+	"ValidSkinNames": {
+		"greystuff": "GreyStuff"
+	},
+	"MessagesDirs": {
+		"SkinGreyStuff": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"SkinGreyStuff": "GreyStuff.skin.php",
+		"GreyStuffTemplate": "GreyStuffTemplate.php"
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteSkinPath": "GreyStuff"
+	},
+	"ResourceModules": {
+		"skins.greystuff": {
+			"class": "ResourceLoaderSkinModule",
+			"styles": {
+				"resources/normalise.css": {
+					"media": "screen"
+				},
+				"resources/forms.less": {
+					"media": "screen"
+				},
+				"resources/main.less": {
+					"media": "screen"
+				},
+				"resources/screen-full.less": {
+					"media": "screen and (min-width: 761px)"
+				},
+				"resources/screen-mobile.less": {
+					"media": "screen and (max-width: 760px)"
+				}
+			},
+			"position": "top"
+		},
+		"skins.greystuff.js": {
+			"scripts": [ "resources/main.js" ],
+			"position": "bottom"
+		},
+		"skins.greystuff.mobile": {
+			"styles": {
+				"resources/mobile.js.less": {
+					"media": "(max-width: 760px)"
+				}
+			},
+			"scripts": [ "resources/mobile.js" ],
+			"position": "top"
+		}
+	},
+	"manifest_version": 1
+}

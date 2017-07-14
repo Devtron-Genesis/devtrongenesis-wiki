@@ -1,0 +1,60 @@
+{
+	"name": "Mask",
+	"version": "0.6.2",
+	"author": [
+		"Calimonius the Estrange",
+		"Jack Phoenix"
+	],
+	"url": "https://www.mediawiki.org/wiki/Skin:Mask",
+	"descriptionmsg": "mask-desc",
+	"license-name": "GPL-2.0+",
+	"type": "skin",
+	"ValidSkinNames": {
+		"mask": "Mask"
+	},
+	"MessagesDirs": {
+		"SkinMask": [
+			"/i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"SkinMask": "Mask.skin.php",
+		"MaskTemplate": "Mask.skin.php"
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteSkinPath": "Mask"
+	},
+	"ResourceModules": {
+		"skins.mask": {
+			"styles": {
+				"resources/normalise.css": {
+					"media": "screen"
+				},
+				"resources/fonts.css": {
+					"media": "screen"
+				},
+				"resources/main.css": {
+					"media": "screen"
+				},
+				"resources/print.css": {
+					"media": "print"
+				}
+			},
+			"position": "top"
+		}
+	},
+	"ResourceModuleSkinStyles": {
+		"mask": {
+			"mediawiki.ui": [],
+			"mediawiki.ui.checkbox": [],
+			"mediawiki.ui.anchor": [],
+			"mediawiki.ui.button": [],
+			"mediawiki.ui.input": [],
+			"mediawiki.ui.radio": [],
+			"mediawiki.ui.icon": [],
+			"mediawiki.ui.text": []
+		}
+	},
+	"manifest_version": 1
+}

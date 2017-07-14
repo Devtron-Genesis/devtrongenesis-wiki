@@ -1,0 +1,54 @@
+{
+	"name": "Blueprint",
+	"namemsg": "skinname-blueprint",
+	"author": [
+		"Andrew Garrett",
+		"Prateek Saxena"
+	],
+	"url": "https://www.mediawiki.org/wiki/Skin:Blueprint",
+	"descriptionmsg": "blueprint-skin-desc",
+	"type": "skin",
+	"license-name": "MIT",
+	"ValidSkinNames": {
+		"blueprint": "Blueprint"
+	},
+	"MessagesDirs": {
+		"Blueprint": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"SkinBlueprint": "src/SkinBlueprint.php",
+		"BlueprintSkinTemplate": "src/BlueprintSkinTemplate.php"
+	},
+	"ResourceModules": {
+		"ext.bootstrap": {
+			"scripts": "resources/vendor/bootstrap/bootstrap.js"
+		},
+		"skin.blueprint.styles": {
+			"styles": "resources/master.less",
+			"position": "top"
+		},
+		"skin.blueprint.js": {
+			"scripts": [
+				"resources/menu.js",
+				"resources/toc.js"
+			],
+			"dependencies": "ext.bootstrap",
+			"position": "top"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteSkinPath": "Blueprint"
+	},
+	"ResourceModuleSkinStyles": {
+		"blueprint": {
+			"jquery.tipsy": [
+				"skinStyles/tipsy.original.less",
+				"skinStyles/tipsy.override.less"
+			]
+		}
+	},
+	"manifest_version": 1
+}

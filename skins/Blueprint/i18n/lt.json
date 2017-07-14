@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eitvys200"
+		]
+	},
+	"blueprint-left-nav": "* [[Main Page|Pagrindinis Puslapis]]",
+	"blueprint-anon-username": "Anoniminis vartotojas",
+	"blueprint-skip-to-content": "Pereiti prie turinio",
+	"blueprint-skip-to-nav": "Pereiti prie navigacijos"
+}

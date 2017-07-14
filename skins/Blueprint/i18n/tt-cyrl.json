@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ильнар"
+		]
+	},
+	"blueprint-skin-desc": "Blueprint навигация панеленә берләштереп, кирәк вакытта, битләрнең үзгәрешләрен, сәхифә буенча навигация һәм аның эчтәлеге буенча мәгълүмат тәкъдим итә.",
+	"blueprint-left-nav": "* [[Main Page|Баш бит]]",
+	"blueprint-anon-username": "Аноним кулланучы",
+	"blueprint-skip-to-content": "Эчтәлеккә күчү",
+	"blueprint-skip-to-nav": "Навигациягә күчү"
+}

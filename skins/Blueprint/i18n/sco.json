@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"AmaryllisGardener"
+		]
+	},
+	"blueprint-skin-desc": "Blueprent combines page actions, steid navigation, an the current page's Table o Contents intae a navigation bar that is anly shawn on-demand",
+	"blueprint-left-nav": "* [[Main Page]]",
+	"blueprint-anon-username": "Anonymous uiser",
+	"blueprint-skip-to-content": "Skip tae content",
+	"blueprint-skip-to-nav": "Skip tae navigation"
+}

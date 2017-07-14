@@ -1,0 +1,36 @@
+<h6 class="sidebar-heading">{{titletext}}</h6>
+<ul class="nav-in-context">
+	{{#each content_navigation.views}}
+		<li>
+			<a
+				href="{{href}}"
+				class="{{class}}"
+				{{#if rel}}rel="{{rel}}"{{/if}}
+				{{#if id}}id="{{id}}"{{/if}}
+			>
+				{{text}}
+			</a>
+		</li>
+	{{/each}}
+	{{#each content_navigation.namespaces}}
+		<li class="mw-skin-bs-cn_ns">
+			<a
+				href="{{href}}"
+				class="{{class}}"
+				id="{{id}}"
+			>
+				{{text}}
+			</a>
+		</li>
+	{{/each}}
+</ul>
+<ul class="toc sidebar-toc">
+{{#each left_nav_sections}}
+	<li class="{{#if current}}sidebar-toc-active{{/if}} sidebar-toc-page">
+		<a href="{{url}}">
+			<span class="tocnumber">&mdash;</span>
+			<span class="toctext">{{text}}</span>
+		</a>
+	</li>
+{{/each}}
+</ul>

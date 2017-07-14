@@ -1,0 +1,473 @@
+@import "vendor/bootstrap/bootstrap.less";
+
+/**
+ * Variables
+ */
+// Colors
+@bgc-main:     #fff;
+@bgc-contrast: #265bb2;
+@bgc-code:     #f9f9f9;
+@c-main:       #333;
+@c-contrast:   #fff;
+@c-link:       #265bb2;
+
+// Box Sizes & Boxes
+@bdc-contrast: #225196;
+@bdc-headers:  #ccc;
+@bdrs-main:    2px;
+
+// Fonts
+@ff-sans:      "Helvetica Neue", Helvetica, Arial, sans-serif;
+// same as Vector's @content-heading-font-family
+@ff-serif:     "Linux Libertine", Georgia, Times, serif;
+
+// Box-Shadows
+// taken from OOjs UI mediawiki/common.less - keep in sync
+@bxsh-menu:    0 .15em 0 0 rgba( 0, 0, 0, .15 );
+@bxsh-popup:   @bxsh-menu;
+
+// Transitions
+@trs-main:     .2s ease-in;
+
+
+/*
+ * Stateful Helper Classes
+ */
+/* Text for Screen Readers only, as long as T119444 isn't resolved and there's no possibility in core */
+.is-aural {
+	display: block;
+	position: absolute !important;
+	clip: rect( 1px, 1px, 1px, 1px );
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	overflow: hidden;
+
+	&[tabindex="0"]:active,
+	&[tabindex="0"]:focus {
+		position: static !important;
+		clip: auto;
+		width: auto;
+		height: auto;
+		margin: 0;
+		overflow: visible;
+	}
+}
+
+/**
+ * Elements
+ */
+body {
+	background-color: @bgc-main;
+	color: @c-main;
+	margin-bottom: 5em;
+	font-family: @ff-sans;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Block-Level Elements */
+#firstHeading, // h1#firstHeading
+.sidebar-heading {
+	margin: 15px 0 0;
+	font: bold 28px/1.25 @ff-serif;
+}
+
+h2 {
+	margin-bottom: 1em;
+	border-bottom: 1px solid @bdc-headers;
+	padding-bottom: .2em;
+	font: 2em/1.25 @ff-serif;
+}
+
+h3,
+h4 {
+	margin: 1.2em 0 .8em 0;
+	padding: 0;
+	font: bold 1.2em/1.5 @ff-sans;
+}
+
+p {
+	margin: 1.2em 0 .8em 0;
+	line-height: 1.5;
+}
+
+/* Inline Elements */
+a {
+	color: @c-link;
+}
+
+pre,
+.mw-code {
+	white-space: pre-wrap;
+}
+
+/* Forms */
+[type="search"]::-ms-clear { // IE10+ adds clearing x, we want to avoid
+	display: none;
+}
+
+
+/**
+ * General Modules Classes
+ */
+/* IMESelector - Input Keyboard Tool */
+.imeselector-toggle {
+	.box-shadow( @bxsh-popup );
+}
+
+
+/**
+ * Document Structure
+ */
+.skin-blueprint > .is-aural {
+	&[tabindex="0"]:active,
+	&[tabindex="0"]:focus {
+		background: @bgc-main;
+		position: absolute !important;
+		top: 50px;
+		min-width: 260px;
+		border: 1px solid #eee;
+		padding: 15px 50px;
+		.box-shadow( @bxsh-menu );
+		outline: 0;
+		z-index: 201; // .sidebar + 1
+	}
+}
+
+/* Main Content */
+.container {
+	margin-top: 50px;
+	padding-top: 1.25em;
+	padding-left: 22px; // 32px minus 10px margin added in menu.js
+}
+	.mw-indicators {
+		float: right;
+		/* Ensure that this is displayed on top of .mw-body-content and clickable */
+		position: relative;
+		z-index: 1;
+	}
+
+	.mw-indicator {
+		display: inline-block;
+	}
+
+	.client-js .container .toc {
+		display: none;
+	}
+
+	/* Wiki Article Content */
+	// Unbreak Visual Editor and possible user contributed styles by overruling `border-box`, see T122117
+	.mw-body-content *,
+	.ve-ui-toolbar * {
+		.box-sizing( content-box );
+	}
+
+.example_container {
+	background-color: @bgc-code;
+	margin: 2em 0;
+	padding: 1em;
+}
+
+/* Sidebar Offscreen Navigation */
+.sidebar {
+	background-color: @bgc-contrast;
+	color: @c-contrast;
+	display: none;
+	position: fixed;
+	top: 50px;
+	left: 0;
+	width: 420px;
+	height: 100%;
+	border-top: 1px solid @bdc-contrast;
+	overflow-y: auto;
+	z-index: 200;
+
+	& ul {
+		list-style: none;
+	}
+
+	& li a {
+		color: @c-contrast;
+		text-decoration: none;
+	}
+}
+
+	.sidebar-heading {
+		margin: 32px 50px;
+		font-size: 2em;
+	}
+
+	.sidebar-toc {
+		margin-top: 17px; // 32px - 10px (padding on ul) - 5px (padding on li)
+		padding: 0 50px;
+		font-size: 16px;
+		line-height: 16px;
+
+		& ul {
+			padding-left: 0;
+		}
+
+		& .tocnumber {
+			display: inline-block;
+			min-width: 60px;
+		}
+
+		& .toctext {
+			display: inline-block;
+			width: 200px;
+		}
+
+		& a {
+			display: inline-block;
+			min-width: 280px;
+			border-radius: @bdrs-main;
+			padding: 5px;
+
+			&:hover {
+				background: rgba( 0, 0, 0, .2 );
+			}
+		}
+	}
+
+		.sidebar-toc-page > a {
+			font-weight: bold;
+		}
+
+		#toctitle {
+			&:extend( .is-aural );
+		}
+
+	.nav-in-context {
+		padding: 0 50px 27px 50px;
+		margin-top: 30px;
+		border-bottom: 1px solid @bdc-contrast;
+
+		& li {
+			& a {
+				background-position: center left;
+				background-repeat: no-repeat;
+				display: inline-block;
+				padding: 5px 0 5px 70px;
+				font-size: 16px;
+			}
+		}
+		/*
+		 * Hide the current tab (e.g. "Page" or "Discussion")
+		 * in the content_navigation.namespace set of tabs.
+		 */
+		& .mw-skin-bs-cn_ns .selected {
+			display: none;
+		}
+	}
+
+		#ca-view {
+			background-image: url( img/view.svg );
+		}
+
+		#ca-edit {
+			background-image: url( img/edit.svg );
+		}
+
+		#ca-viewsource {
+			background-image: url( img/edit-locked.svg );
+		}
+
+		#ca-history {
+			background-image: url( img/history.svg );
+		}
+
+		#ca-talk {
+			background-image: url( img/talk.svg );
+		}
+
+
+
+/* Navbar */
+.navbar.navbar-fixed-top {
+	background: @bgc-main;
+	border: 0;
+
+	.navbar-brand {
+		background-color: @bgc-contrast;
+		color: @c-contrast;
+		min-width: 211px;
+		margin-left: -2px;
+		padding-left: 2px;
+		padding-right: 25px;
+		font-size: 1.1em;
+		font-weight: bold;
+	}
+
+	.navbar-head {
+		min-width: 260px;
+		border-bottom: 1px solid @bdc-contrast;
+	}
+
+	.navbar-form {
+		position: relative;
+		height: 100%;
+		margin: 0;
+		padding: 0;
+
+		& div[role="search"] {
+			height: 100%;
+		}
+	}
+
+	.search-input {
+		background: transparent;
+		color: @c-main;
+		width: 300px;
+		height: 100%;
+		border: 0;
+		padding: 0 40px;
+		.box-shadow( none );
+
+		&:focus {
+			outline: none;
+			.box-shadow( none );
+
+			& + .search-input-label {
+				opacity: 1;
+			}
+		}
+	}
+	.search-input-label {
+		background-image: url( img/search-active.svg );
+		background-position: center left;
+		background-repeat: no-repeat;
+		background-size: 3em;
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 42px;
+		height: 100%;
+		margin: 0;
+		text-indent: 100%;
+		white-space: nowrap;
+		overflow: hidden;
+		opacity: .666;
+		cursor: pointer;
+		.transition( opacity @trs-main );
+	}
+
+	#navbar-right {
+		height: 51px;
+		border-bottom: 1px solid #eee;
+	}
+
+	.account-menu {
+		background-image: url( img/user.svg ), url( img/caret-down.svg );
+		background-position: center left 20px, center right 20px;
+		background-repeat: no-repeat;
+		min-width: 200px;
+		margin-right: 15px;
+		border-left: 1px solid #eee;
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+}
+
+#toc-toggle {
+	background-color: @bgc-contrast;
+	background-image: url( img/menu-clicked.svg );
+	background-position: center center;
+	background-repeat: no-repeat;
+	border-right: 1px solid @bdc-contrast;
+	padding: 25px;
+}
+
+#extra-space {
+	background-color: @bgc-contrast;
+	width: 0;
+	height: 50px;
+}
+
+/* Footer */
+.footer {
+	margin-top: 5em;
+	font-size: 0.8em;
+	text-align: center;
+
+	ul {
+		list-style: none;
+		padding: 0;
+	}
+
+		li {
+			display: inline-block;
+			margin-right: 20px;
+		}
+}
+
+@media screen {
+	#contentSub,
+	#siteSub {
+		display: none;
+	}
+}
+
+.content-actions {
+	font-size: .5em;
+
+	a {
+		margin-left: .75em;
+	}
+}
+
+.nav li.open.open > a {
+	// Override bootstrap
+	border-color: @bdc-contrast;
+}
+
+.mw-editsection {
+	font-family: @ff-sans;
+}
+
+/* Categories */
+.catlinks {
+	clear: both;
+	margin-top: 1em;
+	padding-right: .36em;
+}
+
+
+/**
+ * Print Style Refinements on top of MW's commonPrint.css
+ */
+@media print {
+	.navbar-header {
+		float: none;
+	}
+
+	.navbar {
+		min-height: 20px !important; // override bootstrap.css
+	}
+
+	.navbar.navbar-fixed-top .navbar-head {
+		border-bottom: 0;
+
+		& .navbar-brand {
+			margin-left: 0;
+			height: 20px; // override bootstrap.css
+		}
+	}
+
+	#extra-space,
+	#navbar-right {
+		display: none;
+	}
+
+	#navbar-collapse {
+		border-bottom: 1px solid #333;
+	}
+
+	#content {
+		width: 100%;
+		margin-top: 0;
+		padding-left: 0;
+	}
+}

@@ -1,0 +1,45 @@
+{
+	"name": "Dusk To Dawn",
+	"version": "1.3.2",
+	"author": [
+		"[http://automattic.com/ Automattic]",
+		"Jack Phoenix"
+	],
+	"url": "https://www.mediawiki.org/wiki/Skin:DuskToDawn",
+	"description": "A dark theme that melds old-style organic ornaments with modern design and typography",
+	"license-name": "GPL-2.0+",
+	"type": "skin",
+	"ValidSkinNames": {
+		"dusktodawn": "DuskToDawn"
+	},
+	"MessagesDirs": {
+		"SkinDuskToDawn": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"SkinDuskToDawn": "DuskToDawn.skin.php",
+		"DuskToDawnTemplate": "DuskToDawn.skin.php"
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteSkinPath": "DuskToDawn"
+	},
+	"ResourceModules": {
+		"skins.dusktodawn": {
+			"styles": {
+				"resources/print.css": {
+					"media": "print"
+				},
+				"resources/style.css": {
+					"media": "screen"
+				}
+			},
+			"scripts": [
+				"resources/js/audio.js"
+			],
+			"position": "top"
+		}
+	},
+	"manifest_version": 1
+}

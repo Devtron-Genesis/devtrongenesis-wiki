@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Red Winged Duck"
+		]
+	},
+	"blueprint-skin-desc": "Blueprint спалучае ў панэль навігацыі, якая пазаваецца толькі па патрабаваньні, дзеяньні з старонкамі, навігацыю сайту і зьмест актуальнай старонкі",
+	"blueprint-left-nav": "* [[Main Page|Галоўная старонка]]",
+	"blueprint-anon-username": "Ананімны ўдзельнік",
+	"blueprint-skip-to-content": "Перайсьці да зьместу",
+	"blueprint-skip-to-nav": "Перайсьці да навігацыі"
+}

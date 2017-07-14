@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"StanProg",
+			"Vodnokon4e"
+		]
+	},
+	"blueprint-skin-desc": "Blueprint обединява действията по страници, навигирането в сайта и  съдържанието на текущата страница в навигационна лента, която се показва само при поискване.",
+	"blueprint-left-nav": "* [[Main Page|Начална страница]]",
+	"blueprint-anon-username": "Анонимен потребител",
+	"blueprint-skip-to-content": "Направо към съдържанието",
+	"blueprint-skip-to-nav": "Направо към навигацията"
+}

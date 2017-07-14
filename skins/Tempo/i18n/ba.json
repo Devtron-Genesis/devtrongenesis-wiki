@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Рустам Нурыев",
+			"Азат Хәлилов"
+		]
+	},
+	"tempo-desc": "Таҙа, асыҡ һәм ябай биҙәү темаһы",
+	"tempo-myprofile": "Минең профиль",
+	"tempo-notifications": "Белдереүҙәр",
+	"tempo-ribbon-nonewmessages": "Һеҙҙең яңы хәбәрҙәргеҙ юҡ.",
+	"tempo-ribbon-newmessages": "Һеҙҙең яңы хәбәрҙәргеҙ бар",
+	"tempo-hello": "Һаумыһығыҙ, $1",
+	"tempo-guest": "Ҡунаҡ"
+}

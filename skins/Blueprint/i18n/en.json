@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Paladox",
+			"Andrew Garrett",
+			"Volker E."
+		]
+	},
+	"skinname-blueprint": "Blueprint",
+	"blueprint-skin-desc": "Blueprint combines page actions, site navigation, and the current page's Table of Contents into a navigation bar that is only shown on-demand",
+	"blueprint-left-nav": "* [[Main Page]]\n",
+	"blueprint-anon-username": "Anonymous user",
+	"blueprint-skip-to-content": "Skip to content",
+	"blueprint-skip-to-nav": "Skip to navigation"
+}

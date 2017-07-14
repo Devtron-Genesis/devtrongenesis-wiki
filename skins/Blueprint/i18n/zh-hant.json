@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cwlin0416",
+			"Liuxinyu970226"
+		]
+	},
+	"blueprint-skin-desc": "Blueprint 結合頁面操作、網站導覽以及目前頁面的目錄到導覽列當中依需求顯示",
+	"blueprint-left-nav": "* [[Main Page|首頁]]",
+	"blueprint-anon-username": "匿名使用者",
+	"blueprint-skip-to-content": "跳至內容",
+	"blueprint-skip-to-nav": "跳至導覽"
+}

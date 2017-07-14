@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Banjo",
+			"Elisardojm"
+		]
+	},
+	"blueprint-skin-desc": "Blueprint combina accións de páxina, navegación do sitio e o Índice de contidos actual da páxina nunha barra de navegación que só se amosa baixo petición.",
+	"blueprint-left-nav": "* [[Main Page|Páxina Principal]]",
+	"blueprint-anon-username": "Usuario anónimo",
+	"blueprint-skip-to-content": "Saltar ata os contidos",
+	"blueprint-skip-to-nav": "Saltar ata a navegación"
+}

@@ -1,0 +1,46 @@
+{
+	"name": "Nimbus",
+	"version": "3.2.1",
+	"author": [
+		"Aaron Wright",
+		"David Pean",
+		"Inez Korczyński",
+		"Jack Phoenix"
+	],
+	"url": "https://www.mediawiki.org/wiki/Skin:Nimbus",
+	"license-name": "GPL-2.0+",
+	"descriptionmsg": "nimbus-desc",
+	"type": "skin",
+	"ValidSkinNames": {
+		"nimbus": "Nimbus"
+	},
+	"MessagesDirs": {
+		"SkinNimbus": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"NimbusTemplate": "Nimbus.skin.php",
+		"SkinNimbus": "Nimbus.skin.php"
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteSkinPath": "Nimbus"
+	},
+	"ResourceModules": {
+		"skins.nimbus": {
+			"styles": {
+				"nimbus/Nimbus.css": {
+					"media": "screen"
+				}
+			},
+			"position": "top"
+		},
+		"skins.nimbus.menu": {
+			"scripts": "nimbus/Menu.js",
+			"position": "bottom"
+		}
+	},
+	"manifest_version": 1
+}
+

@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"blueprint-skin-desc": "Blueprint combina le azioni sulle pagine, la navigazione del sito, e l'attuale indice in una barra di navigazione che viene mostrata solo su richiesta",
+	"blueprint-left-nav": "* [[Main Page|Pagina principale]]",
+	"blueprint-anon-username": "Utente anonimo",
+	"blueprint-skip-to-content": "Vai al contenuto",
+	"blueprint-skip-to-nav": "Vai alla navigazione"
+}

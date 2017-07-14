@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"blueprint-skin-desc": "Blueprint combina actiones de pagina, le navigation del sito e le tabula de contento del pagina actual in un barra de navigation que solmente se monstra sur demanda.",
+	"blueprint-left-nav": "* [[Main Page|Pagina principal]]",
+	"blueprint-anon-username": "Usator anonyme",
+	"blueprint-skip-to-content": "Saltar al contento",
+	"blueprint-skip-to-nav": "Saltar al navigation"
+}

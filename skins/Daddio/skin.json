@@ -1,0 +1,40 @@
+{
+	"name": "Daddio",
+	"author": [
+		"Rufus Post",
+		"Aaron Schulz"
+	],
+	"url": "https://www.mediawiki.org/wiki/Skin:Daddio",
+	"descriptionmsg": "daddio-desc",
+	"type": "skin",
+	"ValidSkinNames": {
+		"daddio": "Daddio"
+	},
+	"MessagesDirs": {
+		"SkinDaddio": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"DaddioTemplate": "Daddio.skin.php",
+		"SkinDaddio": "Daddio.skin.php"
+	},
+	"ResourceModules": {
+		"skins.daddio": {
+			"styles": {
+				"daddio/main.css": {
+					"media": "screen"
+				},
+				"daddio/print.css": {
+					"media": "print"
+				}
+			},
+			"position": "top"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteSkinPath": "Daddio"
+	},
+	"manifest_version": 1
+}

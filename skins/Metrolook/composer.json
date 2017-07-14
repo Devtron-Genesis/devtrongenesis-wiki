@@ -1,0 +1,45 @@
+{
+	"name": "mediawiki/metrolook-skin",
+	"type": "mediawiki-skin",
+	"description": "A skin for mediawiki",
+	"keywords": [
+		"wiki",
+		"MediaWiki",
+		"skin"
+	],
+	"homepage": "https://www.mediawiki.org/wiki/Skin:Metrolook",
+	"license": "GPL-2.0+",
+	"authors": [
+		{
+			"name": "immewnity"
+		},
+		{
+			"name": "Paladox"
+		},
+		{
+			"name": "Craig Davison"
+		},
+		{
+			"name": "lagleki"
+		}
+	],
+	"support": {
+		"wiki": "https://www.mediawiki.org/wiki/Skin:Metrolook",
+		"forum": "https://www.mediawiki.org/wiki/Skin_talk:Metrolook",
+		"source": "https://phabricator.wikimedia.org/diffusion/SMTL/",
+		"irc": "irc://irc.freenode.org/mediawiki"
+	},
+	"extra": {
+		"installer-name": "Metrolook"
+	},
+	"require-dev": {
+		"jakub-onderka/php-parallel-lint": "0.9.*",
+		"mediawiki/mediawiki-codesniffer": "0.7.2"
+	},
+	"scripts": {
+		"test": [
+			"parallel-lint . --exclude vendor",
+			"phpcs -p -s"
+		]
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"0": "Paladox",
+		"1": "Andrew Garrett",
+		"authors": [
+			"McDutchie",
+			"Robby",
+			"Volker E."
+		]
+	},
+	"skinname-blueprint": "{{optional}}",
+	"blueprint-skin-desc": "{{desc|what=skin|name=Blueprint|url=https://www.mediawiki.org/wiki/Skin:Blueprint}}",
+	"blueprint-left-nav": "List of links to show in the left navigation for the skin\n\nTo translate the Main Page link, add your translation like this: <code><nowiki>[[Main Page|Your Translation]]</nowiki></code>",
+	"blueprint-anon-username": "Text of the user menu button for anonymous users when $wgShowIPinHeader is false\n{{Identical|Anonymous user}}",
+	"blueprint-skip-to-content": "Skip to content",
+	"blueprint-skip-to-nav": "Skip to navigation"
+}

@@ -1,0 +1,6 @@
+/* Fix search suggestions 'cause jQuery blows, apparently, as these values are all zeroed on my IE11... */
+html > body div.suggestions {
+	left: 865px;
+	top: 750px;
+	width: 200px;
+}
